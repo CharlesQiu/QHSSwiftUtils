@@ -19,7 +19,7 @@ s.platform     = :ios, "9.0"
 s.source       = { :git => "https://github.com/CharlesQiu/QHSSwiftUtils.git", :tag => "#{s.version}" }
 
 s.subspec 'extensions' do |ss|
-s.source_files  = "QHSSwiftUtils/src/extensions/*"
+s.source_files  = "QHSSwiftUtils/QHSSwiftUtils/src/extensions/*"
 end
 
 s.frameworks = "Foundation", "UIKit"
