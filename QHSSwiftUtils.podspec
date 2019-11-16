@@ -3,10 +3,10 @@ Pod::Spec.new do |s|
 
 s.name         = "QHSSwiftUtils"
 s.version      = "0.0.1"
-s.summary      = "QHSSwiftUtils is foundation category methods"
+s.summary      = "iOS开发中一些常用的基类与类目工具"
 
 s.description  = <<-DESC
-you can select some category methods of foundation that you want,this methods can help own improve develop quickly
+iOS开发中一些常用的基类与类目工具, 有AES加密, 字符串处理等
 DESC
 
 s.homepage     = "https://github.com/CharlesQiu/QHSSwiftUtils"
@@ -16,11 +16,11 @@ s.author             = { "Charles.Qiu" => "qhs@outlook.com" }
 
 s.platform     = :ios, "9.0"
 
-s.source       = { :git => "https://github.com/CharlesQiu/QHSSwiftUtils.git", :tag => "0.0.1" }
+s.source       = { :git => "https://github.com/CharlesQiu/QHSSwiftUtils.git", :tag => "#{s.version}" }
 
 s.source_files  = "QHSSwiftUtils/src/*.{h,m,swift}"
 
-s.frameworks = "Foundation, UIKit"
+s.frameworks = "Foundation", "UIKit"
 
 s.requires_arc = true
 
