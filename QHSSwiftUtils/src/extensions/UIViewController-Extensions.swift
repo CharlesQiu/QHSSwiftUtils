@@ -10,12 +10,12 @@ import UIKit
 
 extension UIViewController {
     
-    func push(_ to: UIViewController, hidesBottomBarWhenPushed: Bool = true) {
+    public func push(_ to: UIViewController, hidesBottomBarWhenPushed: Bool = true) {
         to.hidesBottomBarWhenPushed = hidesBottomBarWhenPushed
         navigationController?.pushViewController(to, animated: true)
     }
     
-    func present(_ to: UIViewController, completion: (() -> Void)? = nil) {
+    public func present(_ to: UIViewController, completion: (() -> Void)? = nil) {
         self.present(to, animated: true, completion: completion)
     }
     
