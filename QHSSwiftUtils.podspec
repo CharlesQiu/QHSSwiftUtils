@@ -22,7 +22,7 @@ s.source       = { :git => "https://github.com/CharlesQiu/QHSSwiftUtils.git", :t
 #ss.source_files  = "QHSSwiftUtils/src/extensions/*"
 #end
 
-s.source_files = "src/extensions/*"
+s.source_files = "QHSSwiftUtils/src/extensions/*"
 
 s.frameworks = "Foundation", "UIKit"
 
