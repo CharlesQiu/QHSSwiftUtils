@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
 
 s.name         = "QHSSwiftUtils"
-s.version      = "0.0.1"
+s.version      = "1.0.0"
 s.summary      = "iOS开发中一些常用的基类与类目工具"
 
 s.description  = <<-DESC
