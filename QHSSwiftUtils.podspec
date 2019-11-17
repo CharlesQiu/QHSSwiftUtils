@@ -11,7 +11,7 @@ DESC
 
 s.homepage     = "https://github.com/CharlesQiu/QHSSwiftUtils"
 # MIT许可证（The MIT License），软件授权条款
-s.license      = "MIT"
+s.license      = { :type => "MIT", :file => "LICENSE" }
 s.author       = { "Charles.Qiu" => "qhs@outlook.com" }
 
 s.platform     = :ios, "9.0"
