@@ -10,9 +10,9 @@ iOS开发中一些常用的基类与类目工具, 有AES加密, 字符串处理�
 DESC
 
 s.homepage     = "https://github.com/CharlesQiu/QHSSwiftUtils"
+# MIT许可证（The MIT License），软件授权条款
 s.license      = "MIT"
-
-s.author             = { "Charles.Qiu" => "qhs@outlook.com" }
+s.author       = { "Charles.Qiu" => "qhs@outlook.com" }
 
 s.platform     = :ios, "9.0"
 
